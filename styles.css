@@ -78,6 +78,9 @@ section {
 .logo {
     width: 40%;
     background: url("./photos/martin-adams-D9MDpAjlJ6k-unsplash.jpg");
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .sign-up {
