@@ -81,12 +81,18 @@ section {
     background-origin: border-box;
     background-repeat: no-repeat;
     background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .sign-up {
     width: 60%;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+
 
 /*
   ========================================
@@ -94,4 +100,23 @@ section {
   ========================================
 */
 
+* {
+    font-size: 2em;
+}
+
+.logo {
+    color: white;
+}
+
+.logo h1 {
+    font-size: 4em;
+}
+
+.logo a {
+    color:aquamarine;
+}
+
+.logo span {
+    font-size: 1rem;
+}
 
