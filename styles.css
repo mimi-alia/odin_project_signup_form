@@ -64,7 +64,7 @@ main {
     justify-content: space-evenly;
     width: 100vw;
     height: 100vh;
-    background-color: aqua;
+    background: linear-gradient(rgb(111, 10, 10) 20%, orange 30%, rgb(12, 12, 12) 50%);
 }
 
 section {
@@ -93,6 +93,31 @@ section {
     justify-content: center;
 }
 
+.sign-up form {
+    max-width: 100%;
+    height: auto;
+    margin: 100px 0;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    flex: auto;
+    justify-content: space-around;
+  }
+
+.sign-up form p {
+    height: 100px;
+    width: 40%;
+    margin: 10px 30px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .sign-up form p * {
+    margin: 5px 0;
+  }
+
 
 /*
   ========================================
@@ -120,3 +145,13 @@ section {
     font-size: 1rem;
 }
 
+.sign-up {
+    font-size: 2rem;
+    line-height: 4rem;
+    background-color: rgba(255, 255, 255, 0.305);
+}
+
+.sign-up form p {
+    font-size: 1rem;
+    line-height: 2rem;
+}
